@@ -1,20 +1,29 @@
-Body{
-    text-align: center;
-}
-
 .produts {
-    max-width: '40em';
+    max-width: 100em;
     color: rgb(0, 100, 100);
+    font-size: 100px;
+    font-weight: bold;
 }
 
 .title {
     text-align: left;
-    padding: 50px 0 0 100px;
+    padding: 40px 0 0 100px;
+}
+
+
+.grid-main {
+    overflow: hidden;
+    max-width: 100%;
+    padding: 40px 0 0 100px;
+}
+
+
+.imgs {
+    max-width: 100%;
+    height: auto;;
 }
 
 .box {
-    max-width: '50em';
-    flex-direction: row;
-    flex: 1;
-    background-color: lightblue;
+    background-color: black;
+    
 }
