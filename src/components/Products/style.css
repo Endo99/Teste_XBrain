@@ -1,0 +1,20 @@
+Body{
+    text-align: center;
+}
+
+.produts {
+    max-width: '40em';
+    color: rgb(0, 100, 100);
+}
+
+.title {
+    text-align: left;
+    padding: 50px 0 0 100px;
+}
+
+.box {
+    max-width: '50em';
+    flex-direction: row;
+    flex: 1;
+    background-color: lightblue;
+}
