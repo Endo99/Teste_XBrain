@@ -27,3 +27,18 @@
     background-color: black;
     
 }
+.dados-cliente {
+    padding: 40px 0 0 100px;;
+}
+
+.text-field {
+    padding: 100px 100px 0 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+.name-products {
+    text-align: center;
+    color: black;
+}

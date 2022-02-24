@@ -1,29 +1,32 @@
 import React from "react";
 import Products from "../Products";
-import { Container } from '@material-ui/core';
-import { blue, orange } from '@material-ui/core/colors';
-import { createMuiTheme } from '@material-ui/core/styles';
-import { ThemeProvider } from '@material-ui/styles';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+// import { Container } from '@material-ui/core';
+// import { blue, orange } from '@material-ui/core/colors';
+// import { createTheme } from '@material-ui/core/styles';
+// import { ThemeProvider } from '@material-ui/styles';
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
     
-    const theme = createMuiTheme({
-        palette: {
-          primary: blue,
-          secondary: orange
-        },
-    });
+    // const theme = createTheme({
+    //     palette: {
+    //       primary: blue,
+    //       secondary: orange
+    //     },
+    // });
 
     return (
         <div>
-            <ThemeProvider theme={theme}>
+            {/* <ThemeProvider theme={theme}>
                 <Container>
                     <Router>
-                        <Route exact path="/" component={() => (<Products />)} />
+                        <Routes>
+                            <Route exact path="/" component={() => (<Products />)} />
+                        </Routes>
                     </Router>
                 </Container>
-      </ThemeProvider>
+      </ThemeProvider> */}
+            <Products />
         </div>
     )
 }
